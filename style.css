@@ -1,0 +1,49 @@
+* {
+  font-family: "Lato", serif;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+
+  background-color: black;
+  height: auto;
+}
+
+.navtop {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 20px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #808080;
+  border: 2px solid transparent;
+  border-radius: 10px;
+
+}
+.search img{
+   cursor: pointer;
+}
+
+.searchInput {
+  border: none;
+  background-color: transparent;
+
+}
+
+.searchInput::placeholder {
+
+  color: #cecdcd;
+}
+.offer{
+  border :2px solid transparent;
+  border-bottom-color:green ;
+  cursor: pointer;
+}
