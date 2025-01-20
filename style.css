@@ -12,7 +12,6 @@ nav {
 
 .navtop {
   display: flex;
-  height: 100px;
   justify-content: space-between;
   align-items: center;
   color: white;
@@ -28,8 +27,9 @@ nav {
   border-radius: 10px;
 
 }
-.search img{
-   cursor: pointer;
+
+.search img {
+  cursor: pointer;
 }
 
 .searchInput {
@@ -42,8 +42,53 @@ nav {
 
   color: #cecdcd;
 }
-.offer{
-  border :2px solid transparent;
-  border-bottom-color:green ;
+
+.offer {
+  border: 2px solid transparent;
+  border-bottom-color: green;
   cursor: pointer;
+}
+
+.navbottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  margin: 0 50px;
+
+}
+
+.menuitem {
+  cursor: pointer;
+}
+
+.slider {
+  background-image: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+  /* clip-path: polygon(0 1%, 100% 0, 100% 73%, 0% 100%); */
+}
+
+.sliderWrapper {
+  display: flex;
+  width: 500vw;
+}
+.sliderBg{
+  width: 75vw;
+  height: 120vh;
+  border-radius: 50%;
+  background-color: green;
+  position:absolute;
+
+
+}
+.sliderItem{
+  position: relative;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.sliderImg , .sliderTitle,.sliderPrice, .sliderItem a{
+  z-index: 1;
 }
