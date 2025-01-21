@@ -65,12 +65,15 @@ nav {
 
 .slider {
   background-image: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
-  /* clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%); */
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+  overflow: hidden;
 }
 
 .sliderWrapper {
   display: flex;
   width: 500vw;
+  transition: all 2s ease;
+ 
 }
 .sliderItem{
   position: relative;
@@ -90,18 +93,87 @@ nav {
 
 
 }
-.sliderTitle{
-  position: absolute;
-  left: 10%;
-  color: white ;
-
-}
 .sliderImg{
   width: 450px;
   height: 600px;
 }
+.sliderTitle{
+  position: absolute;
+  left: 10%;
+ 
+
+}
+.sliderPrice{
+  position: absolute;
+  right: 15%;
+  color: white;
+  font-weight: 400;
+}
+.buyButton{
+  position: absolute;
+  left: 12%;
+  top: 70%;
+  color: white;
+  background-color: #808080;
+  border: 2px solid transparent;
+  height: 30px;
+  border-radius:10px;
+}
+.buyButton:hover{
+  background-color: #747373;
+  cursor: pointer;
+}
+
 
 .sliderImg , .sliderTitle,.sliderPrice, .sliderItem a{
   z-index: 1;
 }
+ #bg1{
+  background-color: #369e62;
+}
+ #bg2{
+  background-color: rebeccapurple;
+}
+ #bg3{
+  background-color: teal;
+}
+ #bg4{
+  background-color:cornflowerblue;
+}
+ #bg5{
+  background-color: rgb(124, 115, 80);
+}
+.sliderItem #price1{
+  color: white;
+}
+.sliderItem #price2{
+  color: teal;
+}
+.sliderItem #price3{
+  color: cornflowerblue;
+}
+.sliderItem #price4{
+  color: cornsilk;
+}
+.sliderItem #price5{
+  color: tomato;
+}
+
+.airforce{
+  color: white;
+}
+.airjordan{
+  color: teal;
+}
+.blazer{
+  color: cornflowerblue;
+}
+.crater{
+  color: cornsilk;
+}
+.hippie{
+  color:tomato;
+}
+
+
 
