@@ -114,8 +114,8 @@ nav {
   left: 12%;
   top: 70%;
   color: white;
-  background-color: #808080;
-  border: 2px solid transparent;
+  background-color: transparent;
+  border: 2px solid #808080;
   height: 30px;
   border-radius:10px;
 }
@@ -175,5 +175,34 @@ nav {
   color:tomato;
 }
 
+.features{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.feature{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.featureimg{
+  
+  width: 50px;
+  height: 50px;
+}
+.featureTitle{
+  margin: 20px 0;
+  font-weight: 800;
+
+}
+.featureDescription{
+  width: 50%;
+  text-align: center;
+}
 
 
