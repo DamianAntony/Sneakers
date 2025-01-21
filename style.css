@@ -15,7 +15,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   color: white;
-  padding: 20px;
+  padding: 10px;
 }
 
 .search {
@@ -54,7 +54,7 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   color: white;
-  padding: 20px;
+  padding: 10px;
   margin: 0 50px;
 
 }
@@ -65,21 +65,12 @@ nav {
 
 .slider {
   background-image: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
-  /* clip-path: polygon(0 1%, 100% 0, 100% 73%, 0% 100%); */
+  /* clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%); */
 }
 
 .sliderWrapper {
   display: flex;
   width: 500vw;
-}
-.sliderBg{
-  width: 75vw;
-  height: 120vh;
-  border-radius: 50%;
-  background-color: green;
-  position:absolute;
-
-
 }
 .sliderItem{
   position: relative;
@@ -89,6 +80,28 @@ nav {
   justify-content: center;
   text-align: center;
 }
+
+.sliderBg{
+  width: 650px;
+  height: 550px;
+  border-radius: 50%;
+  background-color: green;
+  position:absolute;
+
+
+}
+.sliderTitle{
+  position: absolute;
+  left: 10%;
+  color: white ;
+
+}
+.sliderImg{
+  width: 450px;
+  height: 600px;
+}
+
 .sliderImg , .sliderTitle,.sliderPrice, .sliderItem a{
   z-index: 1;
 }
+
