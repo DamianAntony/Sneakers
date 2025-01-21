@@ -73,9 +73,10 @@ nav {
   display: flex;
   width: 500vw;
   transition: all 2s ease;
- 
+
 }
-.sliderItem{
+
+.sliderItem {
   position: relative;
   width: 100vw;
   display: flex;
@@ -84,32 +85,36 @@ nav {
   text-align: center;
 }
 
-.sliderBg{
+.sliderBg {
   width: 650px;
   height: 550px;
   border-radius: 50%;
   background-color: green;
-  position:absolute;
+  position: absolute;
 
 
 }
-.sliderImg{
+
+.sliderImg {
   width: 450px;
   height: 600px;
 }
-.sliderTitle{
+
+.sliderTitle {
   position: absolute;
   left: 10%;
- 
+
 
 }
-.sliderPrice{
+
+.sliderPrice {
   position: absolute;
   right: 15%;
   color: white;
   font-weight: 400;
 }
-.buyButton{
+
+.buyButton {
   position: absolute;
   left: 12%;
   top: 70%;
@@ -117,72 +122,91 @@ nav {
   background-color: transparent;
   border: 2px solid #808080;
   height: 30px;
-  border-radius:10px;
+  border-radius: 10px;
 }
-.buyButton:hover{
+
+.buyButton:hover {
   background-color: #747373;
   cursor: pointer;
 }
 
 
-.sliderImg , .sliderTitle,.sliderPrice, .sliderItem a{
+.sliderImg,
+.sliderTitle,
+.sliderPrice,
+.sliderItem a {
   z-index: 1;
 }
- #bg1{
+
+#bg1 {
   background-color: #369e62;
 }
- #bg2{
+
+#bg2 {
   background-color: rebeccapurple;
 }
- #bg3{
+
+#bg3 {
   background-color: teal;
 }
- #bg4{
-  background-color:cornflowerblue;
+
+#bg4 {
+  background-color: cornflowerblue;
 }
- #bg5{
+
+#bg5 {
   background-color: rgb(124, 115, 80);
 }
-.sliderItem #price1{
+
+.sliderItem #price1 {
   color: white;
 }
-.sliderItem #price2{
+
+.sliderItem #price2 {
   color: teal;
 }
-.sliderItem #price3{
+
+.sliderItem #price3 {
   color: cornflowerblue;
 }
-.sliderItem #price4{
+
+.sliderItem #price4 {
   color: cornsilk;
 }
-.sliderItem #price5{
+
+.sliderItem #price5 {
   color: tomato;
 }
 
-.airforce{
+.airforce {
   color: white;
 }
-.airjordan{
+
+.airjordan {
   color: teal;
 }
-.blazer{
+
+.blazer {
   color: cornflowerblue;
 }
-.crater{
+
+.crater {
   color: cornsilk;
 }
-.hippie{
-  color:tomato;
+
+.hippie {
+  color: tomato;
 }
 
-.features{
-  
+.features {
+
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
 }
-.feature{
+
+.feature {
   width: 100%;
   margin-top: 20px;
   display: flex;
@@ -190,19 +214,37 @@ nav {
   align-items: center;
   flex-direction: column;
 }
-.featureimg{
-  
+
+.featureimg {
+
   width: 50px;
   height: 50px;
 }
-.featureTitle{
+
+.featureTitle {
   margin: 20px 0;
   font-weight: 800;
 
 }
-.featureDescription{
+
+.featureDescription {
   width: 50%;
   text-align: center;
 }
+/* product session */
+.product{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-
+}
+.productimg{
+  width: 40%;
+  
+}
+.productDetails{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
