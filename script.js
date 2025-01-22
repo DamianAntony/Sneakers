@@ -108,9 +108,22 @@ menuOption.forEach((slides, index)=>{
   })
 
 })
+// change product img based on color clicked
 chooseProductColor.forEach((color,index)=>{
   color.addEventListener('click',(event)=>{
     console.log(event);
     choosenProductImg.src=choosenProduct.colors[index].img;
   })
+})
+// adding click effect to sizes in product session
+chooseProductSize.forEach((size,index)=>{
+  size.addEventListener('click',e=>{
+    chooseProductSize.forEach(size=>{
+      size.style.backgroundColor="white"
+      size.style.color="black"
+    })
+        size.style.backgroundColor="black"
+      size.style.color="white"
+  })
+
 })
