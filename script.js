@@ -127,3 +127,13 @@ chooseProductSize.forEach((size,index)=>{
   })
 
 })
+const buybtn = document.querySelector('.buynow')
+const payment = document.querySelector('.payment')
+const close =document.querySelector('.close')
+buybtn.addEventListener('click',event=>{
+  payment.style.display="flex";
+})
+close.addEventListener('click',event=>{
+payment.style.display="none";
+}
+)
