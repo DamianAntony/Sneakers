@@ -419,5 +419,42 @@ label {
 
   height: 100%;
 }
+.newSeason {
+  display: flex;
+}
+.nsItem {
+  flex: 1;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  
+}
+
+
+.nsImg {
+  width: 100%;
+  height: 500px;
+}
+
+.nsTitle{
+  margin: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.nsTitle.Sm{
+  margin-top: 20%;
+}
+
+
+.nsButton {
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
 
 
