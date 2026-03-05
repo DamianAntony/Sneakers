@@ -7,8 +7,7 @@ The Sneakers E-Commerce Website is a platform designed for sneaker enthusiasts t
 - **User Authentication**: Allows users to create accounts, log in, and manage their profiles.
 - **Product Catalog**: A comprehensive catalog of sneakers with filters for brand, size, and price.
 - **Shopping Cart**: Users can add products to their cart and modify their selections before checkout.
-- **Secure Checkout**: Integration with payment gateways to ensure safe and secure transactions.
-- **Order Management**: Users can view their order history and track the status of their orders.
+
 - **Responsive Design**: The website is optimized for both desktop and mobile devices.
 
 ## Tech Stack
