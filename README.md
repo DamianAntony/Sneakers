@@ -13,9 +13,7 @@ The Sneakers E-Commerce Website is a platform designed for sneaker enthusiasts t
 
 ## Tech Stack
 - **Frontend**: HTML, CSS, JavaScript, React
-- **Backend**: Node.js, Express
-- **Database**: MongoDB
-- **Payment Integration**: Stripe
+
 
 ## Installation
 To set up the project locally, follow these steps:
